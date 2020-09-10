@@ -55,7 +55,7 @@ class Heuristica:
                 opt = capacum
                 capini = cap
         print("El optimo: ", capital[capini].Nombre)
-        """Vuelve a inicial las cuidad para poder calcular el recorrido de nuevo cal la capital opt"""
+        """Vuelve a inicial las cuidades para poder calcular el recorrido de nuevo partiendo desde la capital optima"""
         DistanciaHelper.InicialCuidadVisitada(capital)
         Heuristica.GetRecorrerCuidad(capini, capital)
         Heuristica.PrintRecorrido()
